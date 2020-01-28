@@ -6,11 +6,6 @@ To install, run
 net install strcompress, from(https://raw.github.com/lukestein/strcompress/master/)
 ```
 
-To install, run
-```stata
-net install strcompress, from(https://raw.github.com/lukestein/strcompress/master/)
-```
-
 To check if there are updates, run
 ```stata
 ado update strcompress
