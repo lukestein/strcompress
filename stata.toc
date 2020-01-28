@@ -1,0 +1,3 @@
+v3
+d Luke Stein, Babson College
+p strcompress Compression with conversion of string variables to strL
