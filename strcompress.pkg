@@ -1,0 +1,5 @@
+v3
+d strcompress. Compression with conversion of string variables to strL.
+d Luke Stein, Babson College
+f strcompress.ado
+d Distribution-Date: 28jan2020
