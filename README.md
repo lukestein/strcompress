@@ -18,6 +18,10 @@ strcompress
 For example, `strcompress` shrinks this 2.5gb file containing census data from [IPUMS](https://ipums.org) by 41% (versus 25% running just `compress`):
 ![Example screenshot](strcompress_screenshot.png)
 
+Converting a string variable to strL may initially make it require *more* space, but in these cases the `compress` step will convert the variable back to a string. (I’m basically certain that your file will always wind up smaller than it started.) For example:
+![Example screenshot](strcompress_screenshot_noeffect.png)
+
+
 With an optional varlist, `strcompress` will only attempt strL conversion and compression on the named variables.
 
 Other notes:
